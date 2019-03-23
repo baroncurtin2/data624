@@ -48,7 +48,7 @@ random_plas
 
 ```{r}
 plastics %>% decompose(type="multiplicative") %>%
-  autoplot() + xlab("Month") +
+  autoplot() + xlab("Year") +
   ggtitle("Classical multiplicative decomposition
     of Plastic Sales")
 ```
@@ -61,7 +61,7 @@ plastics %>% decompose(type="multiplicative")
 ### c
 ![](./week2/6.2c.png)
 
-Yes the trend is sloped upward and the seasonal trend reaches maximum once a month.
+Yes the trend is sloped upward and the seasonal trend reaches maximum once a year.
 
 
 ### d
